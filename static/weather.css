@@ -1,0 +1,39 @@
+.container {
+        width: 83vh;
+        height: 60vh;
+        position: relative;
+        top: 10px;
+        display: flex;
+      }
+      
+      .jumbotron{
+  /* background-color: aqua; */
+  background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+border: 2px solid red;
+padding: 50px;
+border-radius: 20px;
+
+}
+.details {
+      /* background-color: aquamarine; */
+      background-color: #74EBD5;
+      background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+    background-repeat: no-repeat;
+    border: 2px solid blue;
+     width: 83vh;
+        height: 60vh;
+    padding: 50px;
+    .pp{
+       font-size:2rem;
+       font-weight:20px;
+       /* width: 178px;
+       height: 50px; */
+    }
+    .p{
+      width: 150px;
+      height: 50px;
+    }
+    }
