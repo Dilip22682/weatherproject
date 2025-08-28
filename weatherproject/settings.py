@@ -68,7 +68,8 @@ TEMPLATES = [
         },
     },
 ]
-
+ 
+ 
 WSGI_APPLICATION = 'weatherproject.wsgi.application'
 
 

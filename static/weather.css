@@ -26,14 +26,23 @@ border-radius: 20px;
      width: 83vh;
         height: 60vh;
     padding: 50px;
+}
     .pp{
        font-size:2rem;
        font-weight:20px;
        /* width: 178px;
        height: 50px; */
     }
-    .p{
-      width: 150px;
-      height: 50px;
+    .p{ 
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align-last: auto;
+    -webkit-text-stroke-width: thin;
     }
+
+body{
+      background-image: url(bg_img.jpg);
+      /* background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; */
     }
