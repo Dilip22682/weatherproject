@@ -108,12 +108,12 @@
 
       {% if city %}
       <div class="weather-details mt-3">
-        <p><strong>City:</strong> {{city}}</p>
-        <p class="temp">{{temp}}&#176;C</p>
+        <p><strong>City:</strong> <b>{{city}}</b></p>
+        <p class="temp"><strong>Temprture:</strong>{{temp}}&#176;C</p>
         <p><strong>Day:</strong> {{date}}</p>
         <p><strong>Description:</strong> {{description}}</p>
-        <p><strong>Wind:</strong> {{wind}}</p>
-        <p><strong>Country:</strong> {{country}}</p>
+        <p><strong>Wind Speed:</strong> {{wind}}</p>
+        <p><strong>Country Name:</strong> {{country}}</p>
       </div>
       {% else %}
       <p class="text-muted mt-3">{{city1}}</p>
